@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="My test suite">
+    <test name="testing">
+        <groups>
+            <run>
+                <include name="method1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.coherentsolutions.java.webauto.section01.Ex01TestGrouping" />
+        </classes>
+    </test>
+</suite>
